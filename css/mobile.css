@@ -1,0 +1,198 @@
+/*body {
+  font-family:"Helvetica", Arial, sans-serif;
+  background:#eaeaea;
+
+}*/
+
+.blk{
+  width:100%;
+  height:200px;
+  background:#ffffff;
+  z-index: -10;
+}
+
+.blk1{
+  width:100%;
+height:575px;
+  z-index: -10;
+  background:#eaeaea;
+}
+
+.iphone {
+  width:332px;
+  height:670px;
+ background:url('http://images.apple.com/v/ios/e/images/hardware_iphone.png ') no-repeat;
+margin:0 auto;
+  z-index: -1;
+}
+
+.container2 {
+  width:254px;
+  height:452px;
+  background:#f8f8f8;
+  margin-left:42px;
+  margin-top:94px;
+  border: 1px solid #ccc;
+  float:left;
+  position:absolute;
+  
+}
+
+.status-bar {
+  background:#f8f8f8;
+  height:15px;
+}
+
+.left {
+  float: left;
+    color:#ff365a;
+    cursor:pointer;
+  cursor:hand;
+}
+
+.right{
+  float: right;
+  color:#ff365a;
+    cursor:pointer;
+  cursor:hand;
+}
+.disco {
+  float:left;
+  margin-top:2px;
+  margin-left:67px;
+}
+.nav2 {
+  padding:11px;
+  height:14px;
+  text-align:center;
+background: #f8f8f8; /* Old browsers */
+background: -moz-linear-gradient(top,  #f8f8f8 0%, #eaeaea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f8f8f8 0%,#eaeaea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+  color:#010101;
+  border-bottom:#e7e7e7;
+  font-size:10pt;
+  font-weight:900;
+  
+}
+
+.selector {
+  position:absolute;
+  margin-top:265px;
+    padding-left:24px;
+}
+
+.controls {
+  position:absolute;
+margin-top:338px;
+    padding-left:24px;
+}
+
+.lp {
+  margin-top:28px;
+ font-size:11pt;
+  font-weight:700;
+  padding: 0;
+  overflow:hidden;
+  height:14pt;}
+
+.LP-info {
+    width: 254px;
+  float: left;
+  overflow: hidden;
+  height:402px;
+  text-align:center;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f8f8f8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f8f8f8 0%,#eaeaea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+}
+
+.albums {
+  width: 1000%;
+  overflow: hidden;
+  height:255px;
+  background:#222;
+}  
+
+.album {
+  margin-left: 0%;
+  width: 255px;
+  float: left;
+  text-align: center;
+}
+
+.album .img {
+   margin-left: 0%;
+  width: 255px;
+  float: left;
+  text-align: center;
+}
+.artist {
+    font-size:9pt;
+  color:#999;
+    padding: 0 0 4px 0;
+}
+
+  .role {
+  font-size:9pt;
+    padding: 0 0 6px 0
+}
+
+
+.ftr {
+  float:left;
+  width:255px;
+  margin-top:53px;
+}
+
+.ftr .links {
+  float:left;
+  font-size:8pt;
+  color:#ff2a53;
+}
+
+#az {
+  text-align:left;
+  padding-left:15px;
+}
+
+#it {
+    padding-left:60px;
+
+}
+
+#st {
+  float:right;
+  padding-right:15px;
+}
+
+.details {
+ margin-left: 0%;
+  width: 255px;
+  float: left;
+  text-align: center;
+}
+
+.info {
+  margin-left: 0%;
+  width: 255px;
+  float: left;
+  height:150px;
+  text-align: center;
+}
+
+album_info {
+   width: 1000%;
+  overflow: hidden;
+  height:255px;
+  background:#222;
+}
